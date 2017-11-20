@@ -57,8 +57,22 @@ nav {
   margin: 3% 0 0 2%;
 }
 
-span{
-  border: 1px solid red;
+
+/*Css + JS*/
+input {
+  background-color: lightgray;
+  border: 1px solid gray;
+}
+
+.big {
+  width: 400px;
+  height: 400px;
+  border: 8px solid black;
+  background: greenyellow;
+}
+
+span {
+  border: 1px solid skyblue;
   height: 100px;
   margin: 0% 2% 2% 2%;
   width: 100px;
