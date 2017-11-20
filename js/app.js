@@ -1,12 +1,16 @@
 window.addEventListener('load',function(){
 /*Varaibles */
-  var input = document.querySelector('input');
+  var contForm = document.querySelector('form');
+  var inputTxt = document.querySelector('input');
+  var contList = document.querySelector('div')
 
-/*CRea un tablero grande*/
-  input.addEventListener('click',function(){
-    input.placeholder='';
-    var changeInput = document.seta('input');
-    console.log(changeInput);
+/*Cambia el input por un tablero grande*/
+  inputTxt.addEventListener('click',function(){
+    contForm.removeChild(inputTxt);
+    newForm(event);
+  }) 
 
-  })
+  function newForm(event) {
+    
+  }
 });  
