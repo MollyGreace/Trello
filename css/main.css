@@ -1,0 +1,66 @@
+/*Normalize*/
+* {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Clases reutilizables*/
+
+nav {
+  background-color: #026aa7;
+  color: #fff;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: xx-large;
+  height: 50px;
+  text-align: center;
+  padding: 1% 0;
+  width: 100%;
+}
+
+.cont-text {
+  background-color: powderblue;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Lucida Sans';
+  padding: 5px;
+}
+
+.cont-tabs {  
+  margin: 3% 0 0 2%;
+}
+
+span{
+  border: 1px solid red;
+  height: 100px;
+  margin: 0% 2% 2% 2%;
+  width: 100px;
+  position: relative;
+}
